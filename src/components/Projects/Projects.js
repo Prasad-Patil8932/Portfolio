@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/Screenshot (498).png";
-import emotion from "../../Assets/Projects/emotion.png";
+
 import editor from "../../Assets/Projects/Screenshot (499).png";
 import chatify from "../../Assets/Projects/Screenshot 2025-02-15 161215.png";
-import suicide from "../../Assets/Projects/suicide.png";
+
 import bitsOfCode from "../../Assets/Projects/Screenshot (497).png";
 
 function Projects() {
@@ -50,7 +50,7 @@ function Projects() {
               title="Notes App"
               description="Creating Optimized Notes app using Tan-stack query, It is fully Optimized for using a useQuery and useMutate hook and caching data"
               ghLink="https://github.com/Prasad-Patil8932/Notes-app"
-              demoLink=""              
+              demoLink=""
             />
           </Col>
 
@@ -64,28 +64,6 @@ function Projects() {
               demoLink=""
             />
           </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="NEWS Web site"
-              description="Create simple News Sites."
-              ghLink="https://github.com/Prasad-Patil8932/news-website"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col> */}
-
-          {/* <Col md={4} className="project-card"> */}
-            {/* <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Seven Mentor Pune"
-              description="."
-              ghLink=""
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
